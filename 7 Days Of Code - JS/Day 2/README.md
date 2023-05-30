@@ -1,4 +1,6 @@
-<h1>7 Days Of Code - Desafio 2</h1>
+<h1>7 Days Of Code - Day 2</h1>
+
+<h3>Desafio</h3>
 
 Sabe quando você se cadastra em um site e, logo em seguida, quando faz o seu login, ele já te chama pelo seu nome? É isso que você vai fazer no desafio de hoje!
 
@@ -23,7 +25,9 @@ No final, o sistema vai exibir a mensagem:
 "Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!"
 
 Note que cada informação entre [ ] é uma das respostas dadas pela pessoa.
-EXERCÍCIO OPCIONAL
+
+<h3>EXERCÍCIO OPCIONAL</h3>
+
 Se você quiser se aprofundar no assunto de hoje, eu tenho mais um exercício para você.
 
 Mas ele é 100% opcional.
