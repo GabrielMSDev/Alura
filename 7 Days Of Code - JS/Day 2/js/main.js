@@ -6,18 +6,22 @@ const resumo = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${l
 
 alert(resumo);
 
-const satisfacao = prompt(`Você gosta de estudar ${linguagem}? Responda com o número 1 para SIM ou 2 para NÃO.`);
+function verifica(){
 
-switch (satisfacao) {
-    case "1":
-        alert("Muito bom! Continue estudando e você terá muito sucesso.")
-        break;
+    const satisfacao = prompt(`Você gosta de estudar ${linguagem}? Responda com o número 1 para SIM ou 2 para NÃO.`);
 
-    case "2":
-        alert("Ahh que pena... Já tentou aprender outras linguagens?");
-        break;
+    switch (satisfacao) {
+        case "1":
+            alert("Muito bom! Continue estudando e você terá muito sucesso.")
+            break;
 
-    default:
-        alert("Opção incorreta, por favor, recarregue a página e tente novamente!");
-        break;
+        case "2":
+            alert("Ahh que pena... Já tentou aprender outras linguagens?");
+            break;
+
+        default:
+            alert("Opção incorreta, por favor, recarregue a página e tente novamente!");
+            verifica();
+            break;
+    }
 }
