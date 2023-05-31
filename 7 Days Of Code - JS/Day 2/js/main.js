@@ -6,6 +6,8 @@ const resumo = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${l
 
 alert(resumo);
 
+verifica();
+
 function verifica(){
 
     const satisfacao = prompt(`Você gosta de estudar ${linguagem}? Responda com o número 1 para SIM ou 2 para NÃO.`);
